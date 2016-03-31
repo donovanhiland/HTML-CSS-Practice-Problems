@@ -1,38 +1,58 @@
-
-/* Step-2.1 add a property that will align items center  */
 .main-bottom-section {
-    margin-top: 65px;
-   /* alignment property */
-
+  height: 100%;
+  width: 100%;
+   text-align: center;
+   margin:0 auto;
+   padding-top: 6%;
+   padding-left: 1.5em;
+   padding-right: 1.5em;
 }
 
-/* Step-2.2 Add a width, height and display property to make these containers look like the design */
-.item {
-   /*width*/
-    /*height*/
-    /*display*/
-    background: #DED6D3;
-    margin-bottom: 30px;
+
+.main-bottom-item-container {
+  height: 100%;
+  width: 100%;
 }
 
-/* Step-2.3 Add a width, height and margin property to make these containers look like the design. Remember margin: auto is helpful when trying to center a container*/
+.item-card-top-container {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.item-card-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4%;
+}
+
+.item-card {
+  width: 48%;
+}
+
+.item-card-image {
+  width: 100%;
+}
 
 .full-width-item {
-    /*width*/
-    /*height*/
-    /*margin*/
-    margin:0 auto 30px;
-    background: #DED6D3;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 4%;
+    clear: both;
 }
-
-/* Step-2.4 Add a width, height and margin property to make these containers look like the design. Remember margin: auto is helpful when trying to center a container*/
-
 
 .large-item {
-    /*width*/
-    /*height*/
-    /*margin*/
-    background: #DED6D3;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 4%;
+    clear: both;
 }
 
-
+@media (min-width: 900px) {
+  .main-bottom-container {
+    width: 900px;
+    margin: auto;
+}

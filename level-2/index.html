@@ -3,55 +3,62 @@
 <head>
 
     <meta charset="UTF-8">
-    <title>level-2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Shop</title>
     <link rel="stylesheet" href="../base/base.css">
-
-
-    <!-- STEP 1 CSS FILE **** STEP 1 CSS FILE *** STEP 1 CSS FILE -->
     <link rel="stylesheet" href="step-1/step-1.css">
-
-    <!-- STEP 2 CSS FILE **** STEP 2 CSS FILE *** STEP 2 CSS FILE -->
     <link rel="stylesheet" href="step-2/step-2.css">
-
-    <!-- STEP 3 CSS FILE **** STEP 3 CSS FILE *** STEP 3 CSS FILE -->
     <link rel="stylesheet" href="step-3/step-3.css">
+
 
 </head>
 
 <body>
 <main class="main-wrapper">
-    <!-- Step-1.1 -->
     <section class="main-top-section">
         <header class="top-header">
 
-            <!-- Step-1.2  Add some styles to make these elements line up correctly inside the header-->
-            <div class="menu"></div>
-            <div class="logo"></div>
-            <div class="sign-in"></div>
+            <div class="menu-container"></div>
+            <div class="logo-container"></div>
+            <div class="sign-in-container"></div>
 
         </header>
 
-        <!-- Step-1.3 Add a position property to this container to make it overhang off the section -->
-        <div class="bottom-container"></div>
+        <div class="bottom-container">
+          <img class="bottom-container-image" src="./img/icons/Shop-Deals.png" alt="Shop Now">
+        </div>
     </section>
 
-    <!-- Step-2.1 Add some padding and some margin to make this container look like the design -->
     <section class="main-bottom-section">
+      <div class="main-bottom-container">
 
-        <!-- Step-2.2 These containers need to be lined up side by side -->
-        <div class="item"></div>
-        <div class="item"></div>
+        <div class="item-card-container">
+          <div class="item-card" id="top-left">
+            <img src="./img/Tops.png" class="item-card-image">
+          </div>
+          <div class="item-card" id="top-right">
+            <img src="./img/bottoms.png" class="item-card-image">
+          </div>
+        </div>
 
-        <!-- Step-2.3  This container needs to take up the entire width of the container -->
-        <div class="full-width-item"></div>
+        <div class="full-width-item">
+          <img src="./img/accessories.png" class="item-card-image">
+        </div>
 
-        <!-- Step-2.4 This container needs to take up the entire width of the container-->
-        <div class="large-item"></div>
+        <div class="large-item">
+          <img src="./img/collection.png" class="item-card-image">
+        </div>
 
-        <!-- This is the same as step-2.2 -->
-        <div class="item"></div>
-        <div class="item"></div>
+        <div class="item-card-container">
+          <div class="item-card" id="bottom-left">
+            <img src="./img/kicks.png" class="item-card-image">
+          </div>
+          <div class="item-card" id="bottom-right">
+            <img src="./img/hats.png" class="item-card-image">
+          </div>
+        </div>
 
+      </div>
     </section>
 
 </main>
